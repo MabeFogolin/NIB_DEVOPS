@@ -33,13 +33,13 @@ public class Application {
 
 		// Criando o usuário
 		Usuario usuarioSalvo = Usuario.builder()
-				.cpfUser("98684948009")
-				.nomeUser("Teste fora")
-				.sobrenomeUser("Tchau VM")
+				.cpfUser("02191931006")
+				.nomeUser("Teste inicial")
+				.sobrenomeUser("Spring")
 				.telefoneUser("1234567890")
 				.dataNascimentoUser(LocalDate.of(1990, 1, 1))
 				.planoUser("Premium")
-				.emailUser("maria.fogolin@example.com")
+				.emailUser("mariateste.fogolin@example.com")
 				.diarios(new ArrayList<>())
 				.consultas(new ArrayList<>())
 				.build();
@@ -80,7 +80,7 @@ public class Application {
 				.telefoneProfissional("11987654321")
 				.tipoProfissional("Dentista")
 				.dataInscricaoProfissional(Date.valueOf(LocalDate.of(2024, 9, 27)))
-				.registroProfissional("1234567890")
+				.registroProfissional("01234564789")
 				.emailProfissional("joao.silva@exemplo.com")
 				.endereco(endereco2)
 				.consultas(new ArrayList<>())
