@@ -47,11 +47,11 @@ h2 align="left">Benefícios do Aplicativo</h2>
 
 <h3 align="left"> :basecamp: Modelo Lógico/h3>
 
-<img src="Imagens/2TDSPR_NIB_Logico.png ">
+  <img src="Imagens/2TDSPR_NIB_Logico.png ">
 
 <h3 align="left"> :basecamp: Modelo Físico/h3>
 
-<img src="Imagens/2TDSPR_NIB_Fisico.png ">
+  <img src="Imagens/2TDSPR_NIB_Fisico.png ">
 
 <h2 align="left"> 🎰 Teste dos Endpoints SWAGGER </h2>
 
