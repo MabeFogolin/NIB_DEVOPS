@@ -70,8 +70,13 @@ public class Usuario extends RepresentationModel<Usuario> {
     @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
     private List<Diario> diarios;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
     private List<Consulta> consultas = new ArrayList<>();
+
+    @OneToOne
+    @JsonIgnore
+    private Historico historico;
 
     @OneToOne
     private Endereco endereco;

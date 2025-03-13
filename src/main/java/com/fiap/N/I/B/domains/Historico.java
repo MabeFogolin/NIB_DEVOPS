@@ -35,6 +35,7 @@ public class Historico extends RepresentationModel<Historico> {
     private Long id;
 
     @OneToOne
+    @JsonIgnore
     private Usuario usuario;
 
     @NotNull

@@ -5,9 +5,11 @@ spring:
     url: jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl
     username: rm552669
     password: fiap25
+    hikari:
+      maximum-pool-size: 2
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     database-platform: org.hibernate.dialect.OracleDialect
 
 springdoc:
