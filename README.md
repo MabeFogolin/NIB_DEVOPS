@@ -41,7 +41,13 @@ h2 align="left">Benefícios do Aplicativo</h2>
 
 <h2 align="left"> :basecamp: Relacionamentos: Visão banco</h2>
 
-<img src="/Imagens/Logical.png">
+<h3 align="left"> :basecamp: Modelo Lógico/h2>
+
+<img src="Imagens/2TDSPR_NIB_Logico.png ">
+
+<h3 align="left"> :basecamp: Modelo Físico/h2>
+
+<img src="Imagens/2TDSPR_NIB_Fisico.png ">
 
 <h2 align="left"> 🎰 Teste dos Endpoints SWAGGER </h2>
 
