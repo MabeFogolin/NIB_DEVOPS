@@ -29,7 +29,7 @@ prevenindo fraudes e assegurando a confiabilidade dos dados..</p>
   <li>⚙️ <strong>Backend:</strong> Java com Spring. </li>
   <li>🗄️ <strong>Banco de Dados:</strong> Oracle. </li>
   <li>🧠 <strong>Inteligência Artificial:</strong> Modelos de machine learning com Python para análise de dados. </li>
-  <li> 📱 <strong>Aplicativo:</strong> Construção de aplicativo de tela com a linguagem Kotlin. </li>
+  <li> 📱 <strong>Aplicativo:</strong> Construção de aplicativo de tela com a linguagem React Native. </li>
   
 </ul>
 
