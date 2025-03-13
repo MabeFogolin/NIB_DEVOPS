@@ -9,7 +9,7 @@ facilitando o acompanhamento personalizado e a prevenção de doenças.
 O app permitirá identificar padrões, antecipar necessidades e implementar ações preventivas, reduzindo custos e aumentando a eficiência dos cuidados. Para garantir transparência, as informações serão verificadas por profissionais de odontologia,
 prevenindo fraudes e assegurando a confiabilidade dos dados..</p>
 
-h2 align="left">Benefícios do Aplicativo</h2>
+<h2 align="left">Benefícios do Aplicativo</h2>
 <ul>
   <li>🩺 <strong>Monitoramento de Saúde:</strong> Acompanhe o cotidiano do seu usuário, bem como as condições de sua saúde bucal.</li>
   <li>⚠️ <strong>Prevenção e Intervenção:</strong> Identifique padrões e anomalias para intervenções precoces.</li>
@@ -45,11 +45,11 @@ h2 align="left">Benefícios do Aplicativo</h2>
 
 <h2 align="left"> :basecamp: Relacionamentos: Visão banco</h2>
 
-<h3 align="left"> :basecamp: Modelo Lógico/h3>
+<h3 align="left"> :basecamp: Modelo Lógico </h3>
 
   <img src="Imagens/2TDSPR_NIB_Logico.png ">
 
-<h3 align="left"> :basecamp: Modelo Físico/h3>
+<h3 align="left"> :basecamp: Modelo Físico </h3>
 
   <img src="Imagens/2TDSPR_NIB_Fisico.png ">
 
