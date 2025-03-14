@@ -36,7 +36,7 @@ prevenindo fraudes e assegurando a confiabilidade dos dados..</p>
 <h2 align="left"> 📹 Link do vídeo</h2>
 
 ```bash
-
+https://www.youtube.com/watch?v=4KsJggostBo
 ```
 
 <h2 align="left"> :basecamp: Arquitetura da solução</h2>
@@ -56,7 +56,7 @@ prevenindo fraudes e assegurando a confiabilidade dos dados..</p>
 <h2 align="left"> 🎰 Teste dos Endpoints SWAGGER </h2>
 
 ```bash
-http://40.90.198.227:80/swagger-ui/index.html#/
+https://nib-odontoprev.azurewebsites.net/swagger-ui/index.html#/
 ```
 
 <h2 align="left"> 🧑‍🤝‍🧑 Integrantes</h2>
