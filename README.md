@@ -41,7 +41,7 @@ prevenindo fraudes e assegurando a confiabilidade dos dados..</p>
 
 <h2 align="left"> :basecamp: Arquitetura da solução</h2>
 
-<img src="Imagens/2TDSPR-Sprint01-BIN.drawio.png ">
+<img src="Imagens/2TDSPR-NIB.png ">
 
 <h2 align="left"> :basecamp: Relacionamentos: Visão banco</h2>
 
