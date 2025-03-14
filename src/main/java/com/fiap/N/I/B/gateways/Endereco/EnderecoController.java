@@ -147,11 +147,24 @@ public class EnderecoController {
 
         List<EntityModel<Endereco>> enderecosComLink = enderecos.stream().map(endereco -> {
             EntityModel<Endereco> resource = EntityModel.of(endereco);
-            Link selfLink = linkTo(methodOn(EnderecoController.class).buscarEnderecoPorUsuario(endereco.getUsuario().getCpfUser())).withSelfRel();
-            Link selfLinkProfissional = linkTo(methodOn(EnderecoController.class).buscarEnderecoPorProfissional(endereco.getProfissional().getRegistroProfissional())).withSelfRel();
+
+            if (endereco.getUsuario() != null) {
+                Link selfLinkUsuario = linkTo(methodOn(EnderecoController.class)
+                        .buscarEnderecoPorUsuario(endereco.getUsuario().getCpfUser()))
+                        .withSelfRel();
+                resource.add(selfLinkUsuario);
+            }
+
+            if (endereco.getProfissional() != null) {
+                Link selfLinkProfissional = linkTo(methodOn(EnderecoController.class)
+                        .buscarEnderecoPorProfissional(endereco.getProfissional().getRegistroProfissional()))
+                        .withSelfRel();
+                resource.add(selfLinkProfissional);
+            }
+
             Link allEnderecosLink = linkTo(methodOn(EnderecoController.class).listarTodos()).withRel("all-enderecos");
-            resource.add(selfLink);
             resource.add(allEnderecosLink);
+
             return resource;
         }).collect(Collectors.toList());
 

@@ -60,8 +60,19 @@ public class Application {
 
 		usuarioSalvo.setEndereco(endereco);
 		usuarioSalvo = usuarioRepository.save(usuarioSalvo);
+// Criando o profissional primeiro
+		Profissional profissional = Profissional.builder()
+				.nomeProfissional("João")
+				.sobrenomeProfissional("Silva")
+				.telefoneProfissional("11987654321")
+				.tipoProfissional("Dentista")
+				.dataInscricaoProfissional(Date.valueOf(LocalDate.of(2024, 9, 27)))
+				.registroProfissional("1234567890")
+				.emailProfissional("joao.silva@exemplo.com")
+				.consultas(new ArrayList<>())
+				.build();
+		profissional = profissionalRepository.save(profissional);
 
-		// Criando e salvando o endereço do profissional
 		Endereco endereco2 = Endereco.builder()
 				.ruaEndereco("Rua 2")
 				.numeroEndereco(102)
@@ -70,27 +81,14 @@ public class Application {
 				.cidadeEndereco("Cidade 2")
 				.cepEndereco("12345-02")
 				.estadoEndereco("SP")
+				.profissional(profissional)
 				.build();
-		enderecoRepository.save(endereco2);
+		endereco2 = enderecoRepository.save(endereco2);
 
-		// Criando o profissional e vinculando o endereço salvo
-		Profissional profissional = Profissional.builder()
-				.nomeProfissional("João")
-				.sobrenomeProfissional("Silva")
-				.telefoneProfissional("11987654321")
-				.tipoProfissional("Dentista")
-				.dataInscricaoProfissional(Date.valueOf(LocalDate.of(2024, 9, 27)))
-				.registroProfissional("01234564789")
-				.emailProfissional("joao.silva@exemplo.com")
-				.endereco(endereco2)
-				.consultas(new ArrayList<>())
-				.build();
+		profissional.setEndereco(endereco2);
 		profissionalRepository.save(profissional);
 
-		endereco2.setProfissional(profissional);
-		enderecoRepository.save(endereco2);
 
-		// Criando e vinculando o histórico ao usuário
 		Historico historico = Historico.builder()
 				.tratamentoHistorico(1)
 				.canalHistorico(1)
