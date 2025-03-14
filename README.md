@@ -1,5 +1,5 @@
 
-<h1 align="left"> Global Solution: DEVOPS TOOLS E CLOUD COMPUTING</h1>
+<h1 align="left"> DEVOPS TOOLS E CLOUD COMPUTING</h1>
 <p align="left">O projeto do grupo N.I.B. para a Odontoprev visa desenvolver um aplicativo que monitora a rotina diária dos segurados, 
   coletando dados sobre hábitos para aplicar inteligência artificial na previsão de procedimentos odontológicos de alto custo.
 
